@@ -2,6 +2,7 @@ var spam = [false,"Spam"];
 
 function procCmd(cmd){
 var cmd = cmd.split(" ");
+
 if(cmd[0]=="spam"){
 preventDefault();
 if(!cmd[1]){
